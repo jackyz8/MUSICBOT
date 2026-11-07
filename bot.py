@@ -17,7 +17,7 @@ API_ID = int(os.getenv("38009182"))
 API_HASH = os.getenv("66fd8d2bcea4a101db6716d1225f6e03")
 BOT_TOKEN = os.getenv("9120839921:AAFIAbwki5RkCtb395J0J2O1ETM1Cz46onI")
 SESSION = os.getenv("BQJD-V4AWyXJ3k4tCueo0PpCqpzYGMhSd5D55S38a2tWK8mk0RAA7P2_Q-7I-swQ3gSzpA6SZ2b8fYaUHhpfDBW9mqLdgBAX-fzXJfJ9ydMd6He4qtThwHTBzPdUOdUzsPjZthNS9dDGab6aMj_nE8f-klM--hohn4xVUoJp6pWu0BvVPiTpSy5XhlQSHUlqxpobpB6EQJUtpU7hMBoJpsO0-Bvd1pMUz7_ywFuUskpcGf8pjEITZzIxY7rMnEcB1kKYtTLi1KgxYz39M5jyZvA-6ZELBdAEdC5NboXFVAUfmtWGeqB0-ZBdjtgCjdvoDEcD60WYLLdxSasCVd0jbjNZVMNKLAAAAAIfpPjxAQ")
-LOG_GROUP = int(os.getenv("LOG_GROUP_ID", "0"))
+LOG_GROUP = int(os.getenv("-1004302142225", "0"))
 
 app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 user = Client("assistant", api_id=API_ID, api_hash=API_HASH, session_string=SESSION)
